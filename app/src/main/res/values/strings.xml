@@ -1,0 +1,32 @@
+<resources>
+
+
+    <string name="network_error">Network Error</string>
+    <!-- find help  -->
+    <string name="findhelp_title">Find Help Near You</string>
+    <string name="empty_list">Check Your Internet Connection</string>
+
+
+    <string-array name="feedback">
+        <item>Select the issue</item>
+        <item>Good</item>
+        <item>Buggy</item>
+        <item>Complaint</item>
+        <item>Suggestion</item>
+    </string-array>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="FACEBOOK_APP_ID">1302103286504721</string>
+    <string name="fb_login_protocol_scheme">fb1302103286504721</string>
+    <string name="app_name">Animal Aid</string>
+    <string name="button_findus">Find Help</string>
+    <string name="button_donateus"> Donate Us</string>
+    <string name="button_tellus">Tell Us</string>
+    <string name="find_us">Below is the list of all the neccessory place where regarding help can be found for Animal. These place are Shop, Hospital and any NGO for animal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

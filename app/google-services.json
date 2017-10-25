@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "774446743951",
+    "firebase_url": "https://animalaid-163312.firebaseio.com",
+    "project_id": "animalaid-163312",
+    "storage_bucket": "animalaid-163312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774446743951:android:53abc050ada7026c",
+        "android_client_info": {
+          "package_name": "com.example.android.aa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774446743951-3hmmsbkdi13og53am4hekdkpopedoa9q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "774446743951-dug2hfb1da20jl340dkeb5pdf457br2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.aa",
+            "certificate_hash": "f0c3373435c606564e83adbb79d90f42ded69098"
+          }
+        },
+        {
+          "client_id": "774446743951-ih0h8eg2542udkbcpvkt99eppupqjrek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiWBI9oYOQY1sSgwqtb76xMctK3TQ_6q8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774446743951-3hmmsbkdi13og53am4hekdkpopedoa9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

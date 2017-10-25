@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".findhelp.DetailFindHelpActivity">
+
+
+    <TextView
+        android:id="@+id/placename_findus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        tools:text="London" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/call" />
+
+        <TextView
+            android:id="@+id/mobile_findus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="start"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            tools:text="1234567890" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/detailfindhelp_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:id="@+id/discription_findus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="Lorem ipsum dolor sit amet, voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cu mollit anim id est laborum." />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/address_findus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="Lorem ipsum dolor sit amet, voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cu mollit anim id est laborum." />
+
+
+    <Button
+        android:id="@+id/showInMap_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button"
+        android:text="Show In Map"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

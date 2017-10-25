@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".findhelp.AddFindHelp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="Add Your Place "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="If You Know Any Place Near Your Surrounding Where Any Kind Of Help Can Be Found For Animals We Will Add That Place And Make Available To All ,We will verify your place and inform you "
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="You can give us image of place and any detail about it"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/addhelp_choos_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button"
+            android:text="Choose Image"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/addhelp_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="user_send_image"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp" />
+
+        <EditText
+            android:id="@+id/addhelp_text_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write Something About This Place"
+            android:inputType="textLongMessage"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:selectAllOnFocus="false" />
+
+        <Button
+            android:id="@+id/addhellp_upload_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+
+            android:text="Upload Image"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
